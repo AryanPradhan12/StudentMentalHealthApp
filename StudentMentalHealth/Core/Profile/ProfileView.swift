@@ -43,7 +43,11 @@ struct ProfileView: View {
             }
             
             Section("Account") {
-                
+                Button {
+                    print
+                } label: {
+                    
+                }
             }
         }
     }
