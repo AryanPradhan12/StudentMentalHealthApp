@@ -14,6 +14,11 @@
 		AD40840E2AA22D3F0085BF64 /* StudentMentalHealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD40840D2AA22D3F0085BF64 /* StudentMentalHealthTests.swift */; };
 		AD4084182AA22D3F0085BF64 /* StudentMentalHealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4084172AA22D3F0085BF64 /* StudentMentalHealthUITests.swift */; };
 		AD40841A2AA22D3F0085BF64 /* StudentMentalHealthUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4084192AA22D3F0085BF64 /* StudentMentalHealthUITestsLaunchTests.swift */; };
+		ADE6C3402AA3BDEA00EADBE0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6C33F2AA3BDEA00EADBE0 /* LoginView.swift */; };
+		ADE6C3422AA3C09400EADBE0 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6C3412AA3C09400EADBE0 /* InputView.swift */; };
+		ADE6C3442AA5110C00EADBE0 /* RegisterationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6C3432AA5110C00EADBE0 /* RegisterationView.swift */; };
+		ADE6C3462AA5151E00EADBE0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6C3452AA5151E00EADBE0 /* ProfileView.swift */; };
+		ADE6C3482AA5185900EADBE0 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6C3472AA5185900EADBE0 /* SettingsRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		AD4084132AA22D3F0085BF64 /* StudentMentalHealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentMentalHealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4084172AA22D3F0085BF64 /* StudentMentalHealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentMentalHealthUITests.swift; sourceTree = "<group>"; };
 		AD4084192AA22D3F0085BF64 /* StudentMentalHealthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentMentalHealthUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ADE6C33F2AA3BDEA00EADBE0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		ADE6C3412AA3C09400EADBE0 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		ADE6C3432AA5110C00EADBE0 /* RegisterationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterationView.swift; sourceTree = "<group>"; };
+		ADE6C3452AA5151E00EADBE0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		ADE6C3472AA5185900EADBE0 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +104,10 @@
 		AD4083FB2AA22D3E0085BF64 /* StudentMentalHealth */ = {
 			isa = PBXGroup;
 			children = (
-				AD4083FC2AA22D3E0085BF64 /* StudentMentalHealthApp.swift */,
-				AD4083FE2AA22D3E0085BF64 /* ContentView.swift */,
+				ADE6C3392AA3BCC300EADBE0 /* Model */,
+				ADE6C3382AA3BCBB00EADBE0 /* Core */,
+				ADE6C3372AA3BCB200EADBE0 /* Components */,
+				ADE6C3342AA3BC9300EADBE0 /* App */,
 				AD4084002AA22D3F0085BF64 /* Assets.xcassets */,
 				AD4084022AA22D3F0085BF64 /* Preview Content */,
 			);
@@ -125,6 +137,65 @@
 				AD4084192AA22D3F0085BF64 /* StudentMentalHealthUITestsLaunchTests.swift */,
 			);
 			path = StudentMentalHealthUITests;
+			sourceTree = "<group>";
+		};
+		ADE6C3342AA3BC9300EADBE0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AD4083FC2AA22D3E0085BF64 /* StudentMentalHealthApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ADE6C3372AA3BCB200EADBE0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				ADE6C3412AA3C09400EADBE0 /* InputView.swift */,
+				ADE6C3472AA5185900EADBE0 /* SettingsRowView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		ADE6C3382AA3BCBB00EADBE0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ADE6C33E2AA3BD8C00EADBE0 /* Profile */,
+				ADE6C33D2AA3BD7C00EADBE0 /* Authentication */,
+				ADE6C33A2AA3BCDB00EADBE0 /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		ADE6C3392AA3BCC300EADBE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ADE6C33A2AA3BCDB00EADBE0 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				AD4083FE2AA22D3E0085BF64 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		ADE6C33D2AA3BD7C00EADBE0 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				ADE6C33F2AA3BDEA00EADBE0 /* LoginView.swift */,
+				ADE6C3432AA5110C00EADBE0 /* RegisterationView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		ADE6C33E2AA3BD8C00EADBE0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				ADE6C3452AA5151E00EADBE0 /* ProfileView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +328,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE6C3402AA3BDEA00EADBE0 /* LoginView.swift in Sources */,
+				ADE6C3422AA3C09400EADBE0 /* InputView.swift in Sources */,
 				AD4083FF2AA22D3E0085BF64 /* ContentView.swift in Sources */,
 				AD4083FD2AA22D3E0085BF64 /* StudentMentalHealthApp.swift in Sources */,
+				ADE6C3462AA5151E00EADBE0 /* ProfileView.swift in Sources */,
+				ADE6C3442AA5110C00EADBE0 /* RegisterationView.swift in Sources */,
+				ADE6C3482AA5185900EADBE0 /* SettingsRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
