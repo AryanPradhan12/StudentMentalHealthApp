@@ -44,9 +44,15 @@ struct ProfileView: View {
             
             Section("Account") {
                 Button {
-                    print
+                    print("Sign Out..")
                 } label: {
-                    
+                    SettingsRowView(imageName: "arrow.left.circle.fill", title: "Sign Out", tintColor: .red)
+                }
+                
+                Button {
+                    print("Delete Account..")
+                } label: {
+                    SettingsRowView(imageName: "xmark.circle.fill", title: "Delete Account", tintColor: .red)
                 }
             }
         }

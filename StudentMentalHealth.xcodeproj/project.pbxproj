@@ -14,7 +14,7 @@
 		AD40840E2AA22D3F0085BF64 /* StudentMentalHealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD40840D2AA22D3F0085BF64 /* StudentMentalHealthTests.swift */; };
 		AD4084182AA22D3F0085BF64 /* StudentMentalHealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4084172AA22D3F0085BF64 /* StudentMentalHealthUITests.swift */; };
 		AD40841A2AA22D3F0085BF64 /* StudentMentalHealthUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4084192AA22D3F0085BF64 /* StudentMentalHealthUITestsLaunchTests.swift */; };
-		ADC4FA6D2AA619D600FF3500 /* Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4FA6C2AA619D600FF3500 /* Testing.swift */; };
+		ADC4FA6F2AA61F3F00FF3500 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4FA6E2AA61F3F00FF3500 /* User.swift */; };
 		ADE6C3402AA3BDEA00EADBE0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6C33F2AA3BDEA00EADBE0 /* LoginView.swift */; };
 		ADE6C3422AA3C09400EADBE0 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6C3412AA3C09400EADBE0 /* InputView.swift */; };
 		ADE6C3442AA5110C00EADBE0 /* RegisterationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6C3432AA5110C00EADBE0 /* RegisterationView.swift */; };
@@ -50,7 +50,7 @@
 		AD4084132AA22D3F0085BF64 /* StudentMentalHealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentMentalHealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4084172AA22D3F0085BF64 /* StudentMentalHealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentMentalHealthUITests.swift; sourceTree = "<group>"; };
 		AD4084192AA22D3F0085BF64 /* StudentMentalHealthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentMentalHealthUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		ADC4FA6C2AA619D600FF3500 /* Testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing.swift; sourceTree = "<group>"; };
+		ADC4FA6E2AA61F3F00FF3500 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		ADE6C33F2AA3BDEA00EADBE0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		ADE6C3412AA3C09400EADBE0 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		ADE6C3432AA5110C00EADBE0 /* RegisterationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterationView.swift; sourceTree = "<group>"; };
@@ -171,7 +171,7 @@
 		ADE6C3392AA3BCC300EADBE0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				ADC4FA6C2AA619D600FF3500 /* Testing.swift */,
+				ADC4FA6E2AA61F3F00FF3500 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -335,9 +335,9 @@
 				ADE6C3422AA3C09400EADBE0 /* InputView.swift in Sources */,
 				AD4083FF2AA22D3E0085BF64 /* ContentView.swift in Sources */,
 				AD4083FD2AA22D3E0085BF64 /* StudentMentalHealthApp.swift in Sources */,
+				ADC4FA6F2AA61F3F00FF3500 /* User.swift in Sources */,
 				ADE6C3462AA5151E00EADBE0 /* ProfileView.swift in Sources */,
 				ADE6C3442AA5110C00EADBE0 /* RegisterationView.swift in Sources */,
-				ADC4FA6D2AA619D600FF3500 /* Testing.swift in Sources */,
 				ADE6C3482AA5185900EADBE0 /* SettingsRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
