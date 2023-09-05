@@ -18,6 +18,7 @@
 		ADB3AF5A2AA7A0F600926C59 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = ADB3AF592AA7A0F600926C59 /* FirebaseFirestore */; };
 		ADB3AF5C2AA7A0F600926C59 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ADB3AF5B2AA7A0F600926C59 /* FirebaseFirestoreSwift */; };
 		ADB3AF5E2AA7A0F600926C59 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = ADB3AF5D2AA7A0F600926C59 /* FirebaseStorage */; };
+		ADB3AF632AA7A36A00926C59 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB3AF622AA7A36A00926C59 /* AuthViewModel.swift */; };
 		ADC4FA6F2AA61F3F00FF3500 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4FA6E2AA61F3F00FF3500 /* User.swift */; };
 		ADC4FA712AA63B9C00FF3500 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADC4FA702AA63B9C00FF3500 /* GoogleService-Info.plist */; };
 		ADE6C3402AA3BDEA00EADBE0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6C33F2AA3BDEA00EADBE0 /* LoginView.swift */; };
@@ -55,6 +56,7 @@
 		AD4084132AA22D3F0085BF64 /* StudentMentalHealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentMentalHealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4084172AA22D3F0085BF64 /* StudentMentalHealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentMentalHealthUITests.swift; sourceTree = "<group>"; };
 		AD4084192AA22D3F0085BF64 /* StudentMentalHealthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentMentalHealthUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ADB3AF622AA7A36A00926C59 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		ADC4FA6E2AA61F3F00FF3500 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		ADC4FA702AA63B9C00FF3500 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		ADE6C33F2AA3BDEA00EADBE0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -152,6 +154,23 @@
 			path = StudentMentalHealthUITests;
 			sourceTree = "<group>";
 		};
+		ADB3AF5F2AA7A2E800926C59 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ADE6C3432AA5110C00EADBE0 /* RegisterationView.swift */,
+				ADE6C33F2AA3BDEA00EADBE0 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ADB3AF612AA7A32500926C59 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ADB3AF622AA7A36A00926C59 /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		ADE6C3342AA3BC9300EADBE0 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,8 +217,8 @@
 		ADE6C33D2AA3BD7C00EADBE0 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
-				ADE6C33F2AA3BDEA00EADBE0 /* LoginView.swift */,
-				ADE6C3432AA5110C00EADBE0 /* RegisterationView.swift */,
+				ADB3AF612AA7A32500926C59 /* ViewModel */,
+				ADB3AF5F2AA7A2E800926C59 /* Views */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -360,6 +379,7 @@
 				ADE6C3462AA5151E00EADBE0 /* ProfileView.swift in Sources */,
 				ADE6C3442AA5110C00EADBE0 /* RegisterationView.swift in Sources */,
 				ADE6C3482AA5185900EADBE0 /* SettingsRowView.swift in Sources */,
+				ADB3AF632AA7A36A00926C59 /* AuthViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
