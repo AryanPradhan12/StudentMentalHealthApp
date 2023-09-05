@@ -14,7 +14,12 @@
 		AD40840E2AA22D3F0085BF64 /* StudentMentalHealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD40840D2AA22D3F0085BF64 /* StudentMentalHealthTests.swift */; };
 		AD4084182AA22D3F0085BF64 /* StudentMentalHealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4084172AA22D3F0085BF64 /* StudentMentalHealthUITests.swift */; };
 		AD40841A2AA22D3F0085BF64 /* StudentMentalHealthUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4084192AA22D3F0085BF64 /* StudentMentalHealthUITestsLaunchTests.swift */; };
+		ADB3AF582AA7A0F600926C59 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = ADB3AF572AA7A0F600926C59 /* FirebaseAuth */; };
+		ADB3AF5A2AA7A0F600926C59 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = ADB3AF592AA7A0F600926C59 /* FirebaseFirestore */; };
+		ADB3AF5C2AA7A0F600926C59 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ADB3AF5B2AA7A0F600926C59 /* FirebaseFirestoreSwift */; };
+		ADB3AF5E2AA7A0F600926C59 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = ADB3AF5D2AA7A0F600926C59 /* FirebaseStorage */; };
 		ADC4FA6F2AA61F3F00FF3500 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4FA6E2AA61F3F00FF3500 /* User.swift */; };
+		ADC4FA712AA63B9C00FF3500 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADC4FA702AA63B9C00FF3500 /* GoogleService-Info.plist */; };
 		ADE6C3402AA3BDEA00EADBE0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6C33F2AA3BDEA00EADBE0 /* LoginView.swift */; };
 		ADE6C3422AA3C09400EADBE0 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6C3412AA3C09400EADBE0 /* InputView.swift */; };
 		ADE6C3442AA5110C00EADBE0 /* RegisterationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6C3432AA5110C00EADBE0 /* RegisterationView.swift */; };
@@ -51,6 +56,7 @@
 		AD4084172AA22D3F0085BF64 /* StudentMentalHealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentMentalHealthUITests.swift; sourceTree = "<group>"; };
 		AD4084192AA22D3F0085BF64 /* StudentMentalHealthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentMentalHealthUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ADC4FA6E2AA61F3F00FF3500 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ADC4FA702AA63B9C00FF3500 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		ADE6C33F2AA3BDEA00EADBE0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		ADE6C3412AA3C09400EADBE0 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		ADE6C3432AA5110C00EADBE0 /* RegisterationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterationView.swift; sourceTree = "<group>"; };
@@ -63,6 +69,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADB3AF582AA7A0F600926C59 /* FirebaseAuth in Frameworks */,
+				ADB3AF5E2AA7A0F600926C59 /* FirebaseStorage in Frameworks */,
+				ADB3AF5A2AA7A0F600926C59 /* FirebaseFirestore in Frameworks */,
+				ADB3AF5C2AA7A0F600926C59 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +121,7 @@
 				ADE6C3372AA3BCB200EADBE0 /* Components */,
 				ADE6C3342AA3BC9300EADBE0 /* App */,
 				AD4084002AA22D3F0085BF64 /* Assets.xcassets */,
+				ADC4FA702AA63B9C00FF3500 /* GoogleService-Info.plist */,
 				AD4084022AA22D3F0085BF64 /* Preview Content */,
 			);
 			path = StudentMentalHealth;
@@ -217,6 +228,12 @@
 			dependencies = (
 			);
 			name = StudentMentalHealth;
+			packageProductDependencies = (
+				ADB3AF572AA7A0F600926C59 /* FirebaseAuth */,
+				ADB3AF592AA7A0F600926C59 /* FirebaseFirestore */,
+				ADB3AF5B2AA7A0F600926C59 /* FirebaseFirestoreSwift */,
+				ADB3AF5D2AA7A0F600926C59 /* FirebaseStorage */,
+			);
 			productName = StudentMentalHealth;
 			productReference = AD4083F92AA22D3E0085BF64 /* StudentMentalHealth.app */;
 			productType = "com.apple.product-type.application";
@@ -289,6 +306,9 @@
 				Base,
 			);
 			mainGroup = AD4083F02AA22D3E0085BF64;
+			packageReferences = (
+				ADB3AF562AA7A0F600926C59 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = AD4083FA2AA22D3E0085BF64 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -307,6 +327,7 @@
 			files = (
 				AD4084042AA22D3F0085BF64 /* Preview Assets.xcassets in Resources */,
 				AD4084012AA22D3F0085BF64 /* Assets.xcassets in Resources */,
+				ADC4FA712AA63B9C00FF3500 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -657,6 +678,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ADB3AF562AA7A0F600926C59 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ADB3AF572AA7A0F600926C59 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADB3AF562AA7A0F600926C59 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		ADB3AF592AA7A0F600926C59 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADB3AF562AA7A0F600926C59 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		ADB3AF5B2AA7A0F600926C59 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADB3AF562AA7A0F600926C59 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		ADB3AF5D2AA7A0F600926C59 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADB3AF562AA7A0F600926C59 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AD4083F12AA22D3E0085BF64 /* Project object */;
 }
