@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD0428ED2AB60F030086BB82 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0428EC2AB60F030086BB82 /* MainViewViewModel.swift */; };
+		AD0428EF2AB60F270086BB82 /* ProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0428EE2AB60F260086BB82 /* ProfileViewViewModel.swift */; };
+		AD0428F12AB60F410086BB82 /* TodolistViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0428F02AB60F410086BB82 /* TodolistViewViewModel.swift */; };
+		AD0428F32AB60F5B0086BB82 /* NewItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0428F22AB60F5B0086BB82 /* NewItemViewViewModel.swift */; };
+		AD0428F52AB60F790086BB82 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0428F42AB60F790086BB82 /* LoginViewViewModel.swift */; };
+		AD0428F72AB60F840086BB82 /* SignupViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0428F62AB60F840086BB82 /* SignupViewViewModel.swift */; };
+		AD0428F92AB60FAB0086BB82 /* TodolistItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0428F82AB60FAB0086BB82 /* TodolistItemViewViewModel.swift */; };
 		AD4083FD2AA22D3E0085BF64 /* StudentMentalHealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4083FC2AA22D3E0085BF64 /* StudentMentalHealthApp.swift */; };
 		AD4083FF2AA22D3E0085BF64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4083FE2AA22D3E0085BF64 /* ContentView.swift */; };
 		AD4084012AA22D3F0085BF64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4084002AA22D3F0085BF64 /* Assets.xcassets */; };
@@ -20,6 +27,11 @@
 		AD5B729C2AAA07DF0007DD00 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AD5B729B2AAA07DF0007DD00 /* FirebaseFirestoreSwift */; };
 		ADB3AF632AA7A36A00926C59 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB3AF622AA7A36A00926C59 /* AuthViewModel.swift */; };
 		ADC4FA6F2AA61F3F00FF3500 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4FA6E2AA61F3F00FF3500 /* User.swift */; };
+		ADCD046D2AB60AF500984BE7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCD046C2AB60AF500984BE7 /* MainView.swift */; };
+		ADCD046F2AB60B3600984BE7 /* TodolistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCD046E2AB60B3600984BE7 /* TodolistView.swift */; };
+		ADCD04712AB60BA100984BE7 /* NewitemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCD04702AB60BA100984BE7 /* NewitemView.swift */; };
+		ADCD04732AB60C3D00984BE7 /* TodolistitemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCD04722AB60C3D00984BE7 /* TodolistitemView.swift */; };
+		ADCD04752AB60C8000984BE7 /* Todolistitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCD04742AB60C8000984BE7 /* Todolistitem.swift */; };
 		ADE6C3402AA3BDEA00EADBE0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6C33F2AA3BDEA00EADBE0 /* LoginView.swift */; };
 		ADE6C3422AA3C09400EADBE0 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6C3412AA3C09400EADBE0 /* InputView.swift */; };
 		ADE6C3442AA5110C00EADBE0 /* RegisterationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6C3432AA5110C00EADBE0 /* RegisterationView.swift */; };
@@ -45,6 +57,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD0428EC2AB60F030086BB82 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
+		AD0428EE2AB60F260086BB82 /* ProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewModel.swift; sourceTree = "<group>"; };
+		AD0428F02AB60F410086BB82 /* TodolistViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodolistViewViewModel.swift; sourceTree = "<group>"; };
+		AD0428F22AB60F5B0086BB82 /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
+		AD0428F42AB60F790086BB82 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
+		AD0428F62AB60F840086BB82 /* SignupViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewViewModel.swift; sourceTree = "<group>"; };
+		AD0428F82AB60FAB0086BB82 /* TodolistItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodolistItemViewViewModel.swift; sourceTree = "<group>"; };
 		AD4083F92AA22D3E0085BF64 /* StudentMentalHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentMentalHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4083FC2AA22D3E0085BF64 /* StudentMentalHealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentMentalHealthApp.swift; sourceTree = "<group>"; };
 		AD4083FE2AA22D3E0085BF64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +77,11 @@
 		AD5B72942AAA076B0007DD00 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ADB3AF622AA7A36A00926C59 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		ADC4FA6E2AA61F3F00FF3500 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ADCD046C2AB60AF500984BE7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		ADCD046E2AB60B3600984BE7 /* TodolistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodolistView.swift; sourceTree = "<group>"; };
+		ADCD04702AB60BA100984BE7 /* NewitemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewitemView.swift; sourceTree = "<group>"; };
+		ADCD04722AB60C3D00984BE7 /* TodolistitemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodolistitemView.swift; sourceTree = "<group>"; };
+		ADCD04742AB60C8000984BE7 /* Todolistitem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todolistitem.swift; sourceTree = "<group>"; };
 		ADE6C33F2AA3BDEA00EADBE0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		ADE6C3412AA3C09400EADBE0 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		ADE6C3432AA5110C00EADBE0 /* RegisterationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterationView.swift; sourceTree = "<group>"; };
@@ -93,6 +117,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD0428EB2AB60ED60086BB82 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AD0428EC2AB60F030086BB82 /* MainViewViewModel.swift */,
+				AD0428EE2AB60F260086BB82 /* ProfileViewViewModel.swift */,
+				AD0428F02AB60F410086BB82 /* TodolistViewViewModel.swift */,
+				AD0428F22AB60F5B0086BB82 /* NewItemViewViewModel.swift */,
+				AD0428F42AB60F790086BB82 /* LoginViewViewModel.swift */,
+				AD0428F62AB60F840086BB82 /* SignupViewViewModel.swift */,
+				AD0428F82AB60FAB0086BB82 /* TodolistItemViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		AD4083F02AA22D3E0085BF64 = {
 			isa = PBXGroup;
 			children = (
@@ -116,10 +154,8 @@
 		AD4083FB2AA22D3E0085BF64 /* StudentMentalHealth */ = {
 			isa = PBXGroup;
 			children = (
-				ADE6C3392AA3BCC300EADBE0 /* Model */,
-				ADE6C3382AA3BCBB00EADBE0 /* Core */,
-				ADE6C3372AA3BCB200EADBE0 /* Components */,
-				ADE6C3342AA3BC9300EADBE0 /* App */,
+				ADCD04762AB60C8A00984BE7 /* Loginandsignup */,
+				ADCD046B2AB60AD400984BE7 /* Todolist */,
 				AD4084002AA22D3F0085BF64 /* Assets.xcassets */,
 				AD5B72942AAA076B0007DD00 /* GoogleService-Info.plist */,
 				AD4084022AA22D3F0085BF64 /* Preview Content */,
@@ -167,6 +203,30 @@
 				ADB3AF622AA7A36A00926C59 /* AuthViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ADCD046B2AB60AD400984BE7 /* Todolist */ = {
+			isa = PBXGroup;
+			children = (
+				ADCD046C2AB60AF500984BE7 /* MainView.swift */,
+				ADCD046E2AB60B3600984BE7 /* TodolistView.swift */,
+				ADCD04702AB60BA100984BE7 /* NewitemView.swift */,
+				ADCD04722AB60C3D00984BE7 /* TodolistitemView.swift */,
+				ADCD04742AB60C8000984BE7 /* Todolistitem.swift */,
+				AD0428EB2AB60ED60086BB82 /* ViewModels */,
+			);
+			path = Todolist;
+			sourceTree = "<group>";
+		};
+		ADCD04762AB60C8A00984BE7 /* Loginandsignup */ = {
+			isa = PBXGroup;
+			children = (
+				ADE6C3342AA3BC9300EADBE0 /* App */,
+				ADE6C3372AA3BCB200EADBE0 /* Components */,
+				ADE6C3382AA3BCBB00EADBE0 /* Core */,
+				ADE6C3392AA3BCC300EADBE0 /* Model */,
+			);
+			path = Loginandsignup;
 			sourceTree = "<group>";
 		};
 		ADE6C3342AA3BC9300EADBE0 /* App */ = {
@@ -369,13 +429,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADE6C3402AA3BDEA00EADBE0 /* LoginView.swift in Sources */,
+				AD0428F12AB60F410086BB82 /* TodolistViewViewModel.swift in Sources */,
+				ADCD04732AB60C3D00984BE7 /* TodolistitemView.swift in Sources */,
+				AD0428F32AB60F5B0086BB82 /* NewItemViewViewModel.swift in Sources */,
 				ADE6C3422AA3C09400EADBE0 /* InputView.swift in Sources */,
+				AD0428F72AB60F840086BB82 /* SignupViewViewModel.swift in Sources */,
 				AD4083FF2AA22D3E0085BF64 /* ContentView.swift in Sources */,
+				ADCD046D2AB60AF500984BE7 /* MainView.swift in Sources */,
 				AD4083FD2AA22D3E0085BF64 /* StudentMentalHealthApp.swift in Sources */,
+				ADCD04752AB60C8000984BE7 /* Todolistitem.swift in Sources */,
 				ADC4FA6F2AA61F3F00FF3500 /* User.swift in Sources */,
+				AD0428ED2AB60F030086BB82 /* MainViewViewModel.swift in Sources */,
 				ADE6C3462AA5151E00EADBE0 /* ProfileView.swift in Sources */,
 				ADE6C3442AA5110C00EADBE0 /* RegisterationView.swift in Sources */,
+				ADCD04712AB60BA100984BE7 /* NewitemView.swift in Sources */,
 				ADE6C3482AA5185900EADBE0 /* SettingsRowView.swift in Sources */,
+				AD0428EF2AB60F270086BB82 /* ProfileViewViewModel.swift in Sources */,
+				AD0428F92AB60FAB0086BB82 /* TodolistItemViewViewModel.swift in Sources */,
+				AD0428F52AB60F790086BB82 /* LoginViewViewModel.swift in Sources */,
+				ADCD046F2AB60B3600984BE7 /* TodolistView.swift in Sources */,
 				ADB3AF632AA7A36A00926C59 /* AuthViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -537,11 +609,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"StudentMentalHealth/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SMH;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -565,11 +637,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"StudentMentalHealth/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SMH;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
