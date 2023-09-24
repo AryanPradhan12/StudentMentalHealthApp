@@ -14,6 +14,7 @@
 		AD0428F52AB60F790086BB82 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0428F42AB60F790086BB82 /* LoginViewViewModel.swift */; };
 		AD0428F72AB60F840086BB82 /* SignupViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0428F62AB60F840086BB82 /* SignupViewViewModel.swift */; };
 		AD0428F92AB60FAB0086BB82 /* TodolistItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0428F82AB60FAB0086BB82 /* TodolistItemViewViewModel.swift */; };
+		AD1FF9702AC059C2005415D3 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1FF96F2AC059C2005415D3 /* ToDoListView.swift */; };
 		AD4083FD2AA22D3E0085BF64 /* StudentMentalHealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4083FC2AA22D3E0085BF64 /* StudentMentalHealthApp.swift */; };
 		AD4083FF2AA22D3E0085BF64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4083FE2AA22D3E0085BF64 /* ContentView.swift */; };
 		AD4084012AA22D3F0085BF64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4084002AA22D3F0085BF64 /* Assets.xcassets */; };
@@ -64,6 +65,7 @@
 		AD0428F42AB60F790086BB82 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		AD0428F62AB60F840086BB82 /* SignupViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewViewModel.swift; sourceTree = "<group>"; };
 		AD0428F82AB60FAB0086BB82 /* TodolistItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodolistItemViewViewModel.swift; sourceTree = "<group>"; };
+		AD1FF96F2AC059C2005415D3 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		AD4083F92AA22D3E0085BF64 /* StudentMentalHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentMentalHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4083FC2AA22D3E0085BF64 /* StudentMentalHealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentMentalHealthApp.swift; sourceTree = "<group>"; };
 		AD4083FE2AA22D3E0085BF64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -131,6 +133,14 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		AD1FF96E2AC05967005415D3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				AD1FF96F2AC059C2005415D3 /* ToDoListView.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		AD4083F02AA22D3E0085BF64 = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +164,7 @@
 		AD4083FB2AA22D3E0085BF64 /* StudentMentalHealth */ = {
 			isa = PBXGroup;
 			children = (
+				AD1FF96E2AC05967005415D3 /* New Group */,
 				ADCD04762AB60C8A00984BE7 /* Loginandsignup */,
 				ADCD046B2AB60AD400984BE7 /* Todolist */,
 				AD4084002AA22D3F0085BF64 /* Assets.xcassets */,
@@ -446,6 +457,7 @@
 				ADE6C3482AA5185900EADBE0 /* SettingsRowView.swift in Sources */,
 				AD0428EF2AB60F270086BB82 /* ProfileViewViewModel.swift in Sources */,
 				AD0428F92AB60FAB0086BB82 /* TodolistItemViewViewModel.swift in Sources */,
+				AD1FF9702AC059C2005415D3 /* ToDoListView.swift in Sources */,
 				AD0428F52AB60F790086BB82 /* LoginViewViewModel.swift in Sources */,
 				ADCD046F2AB60B3600984BE7 /* TodolistView.swift in Sources */,
 				ADB3AF632AA7A36A00926C59 /* AuthViewModel.swift in Sources */,
@@ -614,6 +626,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -642,6 +655,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

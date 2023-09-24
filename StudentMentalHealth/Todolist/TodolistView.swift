@@ -8,8 +8,26 @@
 import SwiftUI
 
 struct TodolistView: View {
+    @StateObject var viewModel = TodolistViewViewModel()
+    
+    init() {
+        
+    }
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack {
+                
+            }
+            .navigationTitle("To do list")
+            .toolbar {
+                Button {
+                    //Action
+                } label: {
+                    Image(systemName: "plus")
+                }
+            }
+        }
     }
 }
 
