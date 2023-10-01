@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 struct ContentView: View {
     @EnvironmentObject var viewModel: AuthViewModel
      var body: some View {
@@ -19,7 +18,7 @@ struct ContentView: View {
     }
    
     }
-    
+    //end of authviewmodel
     
     
     
