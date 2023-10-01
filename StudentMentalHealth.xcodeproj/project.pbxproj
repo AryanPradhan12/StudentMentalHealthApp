@@ -7,13 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD0428ED2AB60F030086BB82 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0428EC2AB60F030086BB82 /* MainViewViewModel.swift */; };
-		AD0428EF2AB60F270086BB82 /* ProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0428EE2AB60F260086BB82 /* ProfileViewViewModel.swift */; };
-		AD0428F12AB60F410086BB82 /* TodolistViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0428F02AB60F410086BB82 /* TodolistViewViewModel.swift */; };
-		AD0428F32AB60F5B0086BB82 /* NewItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0428F22AB60F5B0086BB82 /* NewItemViewViewModel.swift */; };
-		AD0428F52AB60F790086BB82 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0428F42AB60F790086BB82 /* LoginViewViewModel.swift */; };
-		AD0428F72AB60F840086BB82 /* SignupViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0428F62AB60F840086BB82 /* SignupViewViewModel.swift */; };
-		AD0428F92AB60FAB0086BB82 /* TodolistItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0428F82AB60FAB0086BB82 /* TodolistItemViewViewModel.swift */; };
 		AD4083FD2AA22D3E0085BF64 /* StudentMentalHealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4083FC2AA22D3E0085BF64 /* StudentMentalHealthApp.swift */; };
 		AD4083FF2AA22D3E0085BF64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4083FE2AA22D3E0085BF64 /* ContentView.swift */; };
 		AD4084012AA22D3F0085BF64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4084002AA22D3F0085BF64 /* Assets.xcassets */; };
@@ -25,25 +18,9 @@
 		AD5B72982AAA07DF0007DD00 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AD5B72972AAA07DF0007DD00 /* FirebaseAuth */; };
 		AD5B729A2AAA07DF0007DD00 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AD5B72992AAA07DF0007DD00 /* FirebaseFirestore */; };
 		AD5B729C2AAA07DF0007DD00 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AD5B729B2AAA07DF0007DD00 /* FirebaseFirestoreSwift */; };
-		AD803D2D2AC99E8A004302EC /* RemindersModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD803D2B2AC99E8A004302EC /* RemindersModel.xcdatamodeld */; };
-		AD803D302AC9A014004302EC /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD803D2F2AC9A014004302EC /* HomeScreen.swift */; };
-		AD803D322AC9A43A004302EC /* AddNewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD803D312AC9A43A004302EC /* AddNewListView.swift */; };
-		AD803D352AC9A7DC004302EC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD803D342AC9A7DC004302EC /* Constants.swift */; };
-		AD803D382AC9AD91004302EC /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD803D372AC9AD91004302EC /* ColorPickerView.swift */; };
-		AD803D3A2AC9ADCB004302EC /* MyListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD803D392AC9ADCB004302EC /* MyListsView.swift */; };
-		AD803D3D2AC9B1A4004302EC /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD803D3C2AC9B1A4004302EC /* Color+Extensions.swift */; };
 		ADB3AF632AA7A36A00926C59 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB3AF622AA7A36A00926C59 /* AuthViewModel.swift */; };
-		ADC183892AC9BD9700B05F38 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC183882AC9BD9700B05F38 /* HomeViewModel.swift */; };
-		ADC1838C2AC9BFAF00B05F38 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1838B2AC9BFAF00B05F38 /* CoreDataManager.swift */; };
-		ADC1838E2AC9C23F00B05F38 /* MyList+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1838D2AC9C23F00B05F38 /* MyList+Extensions.swift */; };
-		ADC183902AC9C33700B05F38 /* MyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1838F2AC9C33700B05F38 /* MyListViewModel.swift */; };
-		ADC183922AC9CF8C00B05F38 /* MyListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC183912AC9CF8C00B05F38 /* MyListCellView.swift */; };
+		ADC183992AC9D4CA00B05F38 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC183982AC9D4CA00B05F38 /* HomeScreen.swift */; };
 		ADC4FA6F2AA61F3F00FF3500 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4FA6E2AA61F3F00FF3500 /* User.swift */; };
-		ADCD046D2AB60AF500984BE7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCD046C2AB60AF500984BE7 /* MainView.swift */; };
-		ADCD046F2AB60B3600984BE7 /* TodolistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCD046E2AB60B3600984BE7 /* TodolistView.swift */; };
-		ADCD04712AB60BA100984BE7 /* NewitemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCD04702AB60BA100984BE7 /* NewitemView.swift */; };
-		ADCD04732AB60C3D00984BE7 /* TodolistitemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCD04722AB60C3D00984BE7 /* TodolistitemView.swift */; };
-		ADCD04752AB60C8000984BE7 /* Todolistitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCD04742AB60C8000984BE7 /* Todolistitem.swift */; };
 		ADE6C3402AA3BDEA00EADBE0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6C33F2AA3BDEA00EADBE0 /* LoginView.swift */; };
 		ADE6C3422AA3C09400EADBE0 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6C3412AA3C09400EADBE0 /* InputView.swift */; };
 		ADE6C3442AA5110C00EADBE0 /* RegisterationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6C3432AA5110C00EADBE0 /* RegisterationView.swift */; };
@@ -69,13 +46,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AD0428EC2AB60F030086BB82 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
-		AD0428EE2AB60F260086BB82 /* ProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewModel.swift; sourceTree = "<group>"; };
-		AD0428F02AB60F410086BB82 /* TodolistViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodolistViewViewModel.swift; sourceTree = "<group>"; };
-		AD0428F22AB60F5B0086BB82 /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
-		AD0428F42AB60F790086BB82 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
-		AD0428F62AB60F840086BB82 /* SignupViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewViewModel.swift; sourceTree = "<group>"; };
-		AD0428F82AB60FAB0086BB82 /* TodolistItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodolistItemViewViewModel.swift; sourceTree = "<group>"; };
 		AD4083F92AA22D3E0085BF64 /* StudentMentalHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentMentalHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4083FC2AA22D3E0085BF64 /* StudentMentalHealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentMentalHealthApp.swift; sourceTree = "<group>"; };
 		AD4083FE2AA22D3E0085BF64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,25 +57,9 @@
 		AD4084172AA22D3F0085BF64 /* StudentMentalHealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentMentalHealthUITests.swift; sourceTree = "<group>"; };
 		AD4084192AA22D3F0085BF64 /* StudentMentalHealthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentMentalHealthUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AD5B72942AAA076B0007DD00 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		AD803D2C2AC99E8A004302EC /* RemindersModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RemindersModel.xcdatamodel; sourceTree = "<group>"; };
-		AD803D2F2AC9A014004302EC /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
-		AD803D312AC9A43A004302EC /* AddNewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListView.swift; sourceTree = "<group>"; };
-		AD803D342AC9A7DC004302EC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		AD803D372AC9AD91004302EC /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
-		AD803D392AC9ADCB004302EC /* MyListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListsView.swift; sourceTree = "<group>"; };
-		AD803D3C2AC9B1A4004302EC /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		ADB3AF622AA7A36A00926C59 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
-		ADC183882AC9BD9700B05F38 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		ADC1838B2AC9BFAF00B05F38 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
-		ADC1838D2AC9C23F00B05F38 /* MyList+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+Extensions.swift"; sourceTree = "<group>"; };
-		ADC1838F2AC9C33700B05F38 /* MyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListViewModel.swift; sourceTree = "<group>"; };
-		ADC183912AC9CF8C00B05F38 /* MyListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListCellView.swift; sourceTree = "<group>"; };
+		ADC183982AC9D4CA00B05F38 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		ADC4FA6E2AA61F3F00FF3500 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		ADCD046C2AB60AF500984BE7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		ADCD046E2AB60B3600984BE7 /* TodolistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodolistView.swift; sourceTree = "<group>"; };
-		ADCD04702AB60BA100984BE7 /* NewitemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewitemView.swift; sourceTree = "<group>"; };
-		ADCD04722AB60C3D00984BE7 /* TodolistitemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodolistitemView.swift; sourceTree = "<group>"; };
-		ADCD04742AB60C8000984BE7 /* Todolistitem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todolistitem.swift; sourceTree = "<group>"; };
 		ADE6C33F2AA3BDEA00EADBE0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		ADE6C3412AA3C09400EADBE0 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		ADE6C3432AA5110C00EADBE0 /* RegisterationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterationView.swift; sourceTree = "<group>"; };
@@ -141,34 +95,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AD0428EB2AB60ED60086BB82 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				AD0428EC2AB60F030086BB82 /* MainViewViewModel.swift */,
-				AD0428EE2AB60F260086BB82 /* ProfileViewViewModel.swift */,
-				AD0428F02AB60F410086BB82 /* TodolistViewViewModel.swift */,
-				AD0428F22AB60F5B0086BB82 /* NewItemViewViewModel.swift */,
-				AD0428F42AB60F790086BB82 /* LoginViewViewModel.swift */,
-				AD0428F62AB60F840086BB82 /* SignupViewViewModel.swift */,
-				AD0428F82AB60FAB0086BB82 /* TodolistItemViewViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		AD1FF9F42AC07AAF005415D3 /* Reminders */ = {
-			isa = PBXGroup;
-			children = (
-				ADC1838A2AC9BF9600B05F38 /* Managers */,
-				ADC183872AC9BD5E00B05F38 /* View Models */,
-				AD803D3B2AC9B184004302EC /* Extensions */,
-				AD803D362AC9AD64004302EC /* Views */,
-				AD803D332AC9A7C8004302EC /* Utils */,
-				AD803D2E2AC99FF6004302EC /* Screens */,
-				AD803D2B2AC99E8A004302EC /* RemindersModel.xcdatamodeld */,
-			);
-			path = Reminders;
-			sourceTree = "<group>";
-		};
 		AD4083F02AA22D3E0085BF64 = {
 			isa = PBXGroup;
 			children = (
@@ -192,9 +118,8 @@
 		AD4083FB2AA22D3E0085BF64 /* StudentMentalHealth */ = {
 			isa = PBXGroup;
 			children = (
-				AD1FF9F42AC07AAF005415D3 /* Reminders */,
+				ADC183962AC9D4B200B05F38 /* ToDoListPage */,
 				ADCD04762AB60C8A00984BE7 /* Loginandsignup */,
-				ADCD046B2AB60AD400984BE7 /* Todolist */,
 				AD4084002AA22D3F0085BF64 /* Assets.xcassets */,
 				AD5B72942AAA076B0007DD00 /* GoogleService-Info.plist */,
 				AD4084022AA22D3F0085BF64 /* Preview Content */,
@@ -227,42 +152,6 @@
 			path = StudentMentalHealthUITests;
 			sourceTree = "<group>";
 		};
-		AD803D2E2AC99FF6004302EC /* Screens */ = {
-			isa = PBXGroup;
-			children = (
-				AD803D2F2AC9A014004302EC /* HomeScreen.swift */,
-			);
-			path = Screens;
-			sourceTree = "<group>";
-		};
-		AD803D332AC9A7C8004302EC /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				AD803D342AC9A7DC004302EC /* Constants.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		AD803D362AC9AD64004302EC /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				AD803D312AC9A43A004302EC /* AddNewListView.swift */,
-				AD803D372AC9AD91004302EC /* ColorPickerView.swift */,
-				AD803D392AC9ADCB004302EC /* MyListsView.swift */,
-				ADC183912AC9CF8C00B05F38 /* MyListCellView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		AD803D3B2AC9B184004302EC /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				AD803D3C2AC9B1A4004302EC /* Color+Extensions.swift */,
-				ADC1838D2AC9C23F00B05F38 /* MyList+Extensions.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
 		ADB3AF5F2AA7A2E800926C59 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,34 +169,20 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		ADC183872AC9BD5E00B05F38 /* View Models */ = {
+		ADC183962AC9D4B200B05F38 /* ToDoListPage */ = {
 			isa = PBXGroup;
 			children = (
-				ADC183882AC9BD9700B05F38 /* HomeViewModel.swift */,
-				ADC1838F2AC9C33700B05F38 /* MyListViewModel.swift */,
+				ADC183972AC9D4C000B05F38 /* Screens */,
 			);
-			path = "View Models";
+			path = ToDoListPage;
 			sourceTree = "<group>";
 		};
-		ADC1838A2AC9BF9600B05F38 /* Managers */ = {
+		ADC183972AC9D4C000B05F38 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				ADC1838B2AC9BFAF00B05F38 /* CoreDataManager.swift */,
+				ADC183982AC9D4CA00B05F38 /* HomeScreen.swift */,
 			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
-		ADCD046B2AB60AD400984BE7 /* Todolist */ = {
-			isa = PBXGroup;
-			children = (
-				ADCD046C2AB60AF500984BE7 /* MainView.swift */,
-				ADCD046E2AB60B3600984BE7 /* TodolistView.swift */,
-				ADCD04702AB60BA100984BE7 /* NewitemView.swift */,
-				ADCD04722AB60C3D00984BE7 /* TodolistitemView.swift */,
-				ADCD04742AB60C8000984BE7 /* Todolistitem.swift */,
-				AD0428EB2AB60ED60086BB82 /* ViewModels */,
-			);
-			path = Todolist;
+			path = Screens;
 			sourceTree = "<group>";
 		};
 		ADCD04762AB60C8A00984BE7 /* Loginandsignup */ = {
@@ -520,38 +395,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD803D352AC9A7DC004302EC /* Constants.swift in Sources */,
 				ADE6C3402AA3BDEA00EADBE0 /* LoginView.swift in Sources */,
-				AD803D3A2AC9ADCB004302EC /* MyListsView.swift in Sources */,
-				AD0428F12AB60F410086BB82 /* TodolistViewViewModel.swift in Sources */,
-				ADCD04732AB60C3D00984BE7 /* TodolistitemView.swift in Sources */,
-				AD0428F32AB60F5B0086BB82 /* NewItemViewViewModel.swift in Sources */,
 				ADE6C3422AA3C09400EADBE0 /* InputView.swift in Sources */,
-				AD803D2D2AC99E8A004302EC /* RemindersModel.xcdatamodeld in Sources */,
-				AD0428F72AB60F840086BB82 /* SignupViewViewModel.swift in Sources */,
-				ADC1838E2AC9C23F00B05F38 /* MyList+Extensions.swift in Sources */,
 				AD4083FF2AA22D3E0085BF64 /* ContentView.swift in Sources */,
-				ADCD046D2AB60AF500984BE7 /* MainView.swift in Sources */,
-				AD803D3D2AC9B1A4004302EC /* Color+Extensions.swift in Sources */,
-				AD803D322AC9A43A004302EC /* AddNewListView.swift in Sources */,
 				AD4083FD2AA22D3E0085BF64 /* StudentMentalHealthApp.swift in Sources */,
-				ADCD04752AB60C8000984BE7 /* Todolistitem.swift in Sources */,
-				ADC183892AC9BD9700B05F38 /* HomeViewModel.swift in Sources */,
 				ADC4FA6F2AA61F3F00FF3500 /* User.swift in Sources */,
-				AD0428ED2AB60F030086BB82 /* MainViewViewModel.swift in Sources */,
-				ADC1838C2AC9BFAF00B05F38 /* CoreDataManager.swift in Sources */,
 				ADE6C3462AA5151E00EADBE0 /* ProfileView.swift in Sources */,
+				ADC183992AC9D4CA00B05F38 /* HomeScreen.swift in Sources */,
 				ADE6C3442AA5110C00EADBE0 /* RegisterationView.swift in Sources */,
-				ADCD04712AB60BA100984BE7 /* NewitemView.swift in Sources */,
 				ADE6C3482AA5185900EADBE0 /* SettingsRowView.swift in Sources */,
-				AD0428EF2AB60F270086BB82 /* ProfileViewViewModel.swift in Sources */,
-				AD0428F92AB60FAB0086BB82 /* TodolistItemViewViewModel.swift in Sources */,
-				AD803D302AC9A014004302EC /* HomeScreen.swift in Sources */,
-				AD0428F52AB60F790086BB82 /* LoginViewViewModel.swift in Sources */,
-				ADCD046F2AB60B3600984BE7 /* TodolistView.swift in Sources */,
-				AD803D382AC9AD91004302EC /* ColorPickerView.swift in Sources */,
-				ADC183922AC9CF8C00B05F38 /* MyListCellView.swift in Sources */,
-				ADC183902AC9C33700B05F38 /* MyListViewModel.swift in Sources */,
 				ADB3AF632AA7A36A00926C59 /* AuthViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -902,19 +754,6 @@
 			productName = FirebaseFirestoreSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
-
-/* Begin XCVersionGroup section */
-		AD803D2B2AC99E8A004302EC /* RemindersModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				AD803D2C2AC99E8A004302EC /* RemindersModel.xcdatamodel */,
-			);
-			currentVersion = AD803D2C2AC99E8A004302EC /* RemindersModel.xcdatamodel */;
-			path = RemindersModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = AD4083F12AA22D3E0085BF64 /* Project object */;
 }
