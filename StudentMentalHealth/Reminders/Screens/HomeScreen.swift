@@ -9,10 +9,16 @@ import SwiftUI
 
 struct HomeScreen: View {
     @State private var isPresented: Bool = false
+    @StateObject private var vm: HomeViewModel
+    
+    init(vm: HomeViewModel) {
+        _vm = StateObject(wrappedValue: vm)
+    }
+    
     var body: some View {
         NavigationStack {
             VStack {
-               MyListsView()
+                MyListsView(myLists: vm.myLists)
                 
                 Divider()
                 Button("Add list") {
@@ -22,6 +28,7 @@ struct HomeScreen: View {
                     .sheet(isPresented: $isPresented) {
                         AddNewListView { newListName, colorCode in
                             //save
+                            vm.saveNewList(newListName: newListName, colorCode: colorCode)
                         }
                     }
             }
@@ -32,6 +39,7 @@ struct HomeScreen: View {
 
 struct HomeScreen_Previews: PreviewProvider {
     static var previews: some View {
-        HomeScreen()
+        let vm = HomeViewModel()
+        HomeScreen(vm: vm)
     }
 }

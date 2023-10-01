@@ -33,6 +33,11 @@
 		AD803D3A2AC9ADCB004302EC /* MyListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD803D392AC9ADCB004302EC /* MyListsView.swift */; };
 		AD803D3D2AC9B1A4004302EC /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD803D3C2AC9B1A4004302EC /* Color+Extensions.swift */; };
 		ADB3AF632AA7A36A00926C59 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB3AF622AA7A36A00926C59 /* AuthViewModel.swift */; };
+		ADC183892AC9BD9700B05F38 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC183882AC9BD9700B05F38 /* HomeViewModel.swift */; };
+		ADC1838C2AC9BFAF00B05F38 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1838B2AC9BFAF00B05F38 /* CoreDataManager.swift */; };
+		ADC1838E2AC9C23F00B05F38 /* MyList+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1838D2AC9C23F00B05F38 /* MyList+Extensions.swift */; };
+		ADC183902AC9C33700B05F38 /* MyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1838F2AC9C33700B05F38 /* MyListViewModel.swift */; };
+		ADC183922AC9CF8C00B05F38 /* MyListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC183912AC9CF8C00B05F38 /* MyListCellView.swift */; };
 		ADC4FA6F2AA61F3F00FF3500 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4FA6E2AA61F3F00FF3500 /* User.swift */; };
 		ADCD046D2AB60AF500984BE7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCD046C2AB60AF500984BE7 /* MainView.swift */; };
 		ADCD046F2AB60B3600984BE7 /* TodolistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCD046E2AB60B3600984BE7 /* TodolistView.swift */; };
@@ -90,6 +95,11 @@
 		AD803D392AC9ADCB004302EC /* MyListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListsView.swift; sourceTree = "<group>"; };
 		AD803D3C2AC9B1A4004302EC /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		ADB3AF622AA7A36A00926C59 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		ADC183882AC9BD9700B05F38 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		ADC1838B2AC9BFAF00B05F38 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		ADC1838D2AC9C23F00B05F38 /* MyList+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+Extensions.swift"; sourceTree = "<group>"; };
+		ADC1838F2AC9C33700B05F38 /* MyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListViewModel.swift; sourceTree = "<group>"; };
+		ADC183912AC9CF8C00B05F38 /* MyListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListCellView.swift; sourceTree = "<group>"; };
 		ADC4FA6E2AA61F3F00FF3500 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		ADCD046C2AB60AF500984BE7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		ADCD046E2AB60B3600984BE7 /* TodolistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodolistView.swift; sourceTree = "<group>"; };
@@ -148,6 +158,8 @@
 		AD1FF9F42AC07AAF005415D3 /* Reminders */ = {
 			isa = PBXGroup;
 			children = (
+				ADC1838A2AC9BF9600B05F38 /* Managers */,
+				ADC183872AC9BD5E00B05F38 /* View Models */,
 				AD803D3B2AC9B184004302EC /* Extensions */,
 				AD803D362AC9AD64004302EC /* Views */,
 				AD803D332AC9A7C8004302EC /* Utils */,
@@ -237,6 +249,7 @@
 				AD803D312AC9A43A004302EC /* AddNewListView.swift */,
 				AD803D372AC9AD91004302EC /* ColorPickerView.swift */,
 				AD803D392AC9ADCB004302EC /* MyListsView.swift */,
+				ADC183912AC9CF8C00B05F38 /* MyListCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -245,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				AD803D3C2AC9B1A4004302EC /* Color+Extensions.swift */,
+				ADC1838D2AC9C23F00B05F38 /* MyList+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -264,6 +278,23 @@
 				ADB3AF622AA7A36A00926C59 /* AuthViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ADC183872AC9BD5E00B05F38 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				ADC183882AC9BD9700B05F38 /* HomeViewModel.swift */,
+				ADC1838F2AC9C33700B05F38 /* MyListViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		ADC1838A2AC9BF9600B05F38 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1838B2AC9BFAF00B05F38 /* CoreDataManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		ADCD046B2AB60AD400984BE7 /* Todolist */ = {
@@ -498,14 +529,17 @@
 				ADE6C3422AA3C09400EADBE0 /* InputView.swift in Sources */,
 				AD803D2D2AC99E8A004302EC /* RemindersModel.xcdatamodeld in Sources */,
 				AD0428F72AB60F840086BB82 /* SignupViewViewModel.swift in Sources */,
+				ADC1838E2AC9C23F00B05F38 /* MyList+Extensions.swift in Sources */,
 				AD4083FF2AA22D3E0085BF64 /* ContentView.swift in Sources */,
 				ADCD046D2AB60AF500984BE7 /* MainView.swift in Sources */,
 				AD803D3D2AC9B1A4004302EC /* Color+Extensions.swift in Sources */,
 				AD803D322AC9A43A004302EC /* AddNewListView.swift in Sources */,
 				AD4083FD2AA22D3E0085BF64 /* StudentMentalHealthApp.swift in Sources */,
 				ADCD04752AB60C8000984BE7 /* Todolistitem.swift in Sources */,
+				ADC183892AC9BD9700B05F38 /* HomeViewModel.swift in Sources */,
 				ADC4FA6F2AA61F3F00FF3500 /* User.swift in Sources */,
 				AD0428ED2AB60F030086BB82 /* MainViewViewModel.swift in Sources */,
+				ADC1838C2AC9BFAF00B05F38 /* CoreDataManager.swift in Sources */,
 				ADE6C3462AA5151E00EADBE0 /* ProfileView.swift in Sources */,
 				ADE6C3442AA5110C00EADBE0 /* RegisterationView.swift in Sources */,
 				ADCD04712AB60BA100984BE7 /* NewitemView.swift in Sources */,
@@ -516,6 +550,8 @@
 				AD0428F52AB60F790086BB82 /* LoginViewViewModel.swift in Sources */,
 				ADCD046F2AB60B3600984BE7 /* TodolistView.swift in Sources */,
 				AD803D382AC9AD91004302EC /* ColorPickerView.swift in Sources */,
+				ADC183922AC9CF8C00B05F38 /* MyListCellView.swift in Sources */,
+				ADC183902AC9C33700B05F38 /* MyListViewModel.swift in Sources */,
 				ADB3AF632AA7A36A00926C59 /* AuthViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
