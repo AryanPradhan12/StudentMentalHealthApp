@@ -68,7 +68,7 @@ struct ProfileView: View {
                     Section("Features") {
                         HStack {
                             NavigationLink(destination: {
-                                HomeScreen()
+                                ListView()
                             }, label: {
                                 Text("To do list")
                             })

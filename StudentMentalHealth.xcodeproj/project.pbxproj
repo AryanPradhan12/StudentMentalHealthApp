@@ -18,9 +18,12 @@
 		AD5B72982AAA07DF0007DD00 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AD5B72972AAA07DF0007DD00 /* FirebaseAuth */; };
 		AD5B729A2AAA07DF0007DD00 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AD5B72992AAA07DF0007DD00 /* FirebaseFirestore */; };
 		AD5B729C2AAA07DF0007DD00 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AD5B729B2AAA07DF0007DD00 /* FirebaseFirestoreSwift */; };
+		AD9EEA0B2ACAD41D00F54841 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EEA0A2ACAD41D00F54841 /* ListView.swift */; };
 		ADB3AF632AA7A36A00926C59 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB3AF622AA7A36A00926C59 /* AuthViewModel.swift */; };
-		ADC183992AC9D4CA00B05F38 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC183982AC9D4CA00B05F38 /* HomeScreen.swift */; };
 		ADC4FA6F2AA61F3F00FF3500 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4FA6E2AA61F3F00FF3500 /* User.swift */; };
+		ADDFA1562ADC187B00A95D2B /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDFA1552ADC187B00A95D2B /* ListRowView.swift */; };
+		ADDFA1582ADC1AE200A95D2B /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDFA1572ADC1AE200A95D2B /* AddView.swift */; };
+		ADDFA15B2ADC206D00A95D2B /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDFA15A2ADC206D00A95D2B /* ItemModel.swift */; };
 		ADE6C3402AA3BDEA00EADBE0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6C33F2AA3BDEA00EADBE0 /* LoginView.swift */; };
 		ADE6C3422AA3C09400EADBE0 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6C3412AA3C09400EADBE0 /* InputView.swift */; };
 		ADE6C3442AA5110C00EADBE0 /* RegisterationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6C3432AA5110C00EADBE0 /* RegisterationView.swift */; };
@@ -57,9 +60,12 @@
 		AD4084172AA22D3F0085BF64 /* StudentMentalHealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentMentalHealthUITests.swift; sourceTree = "<group>"; };
 		AD4084192AA22D3F0085BF64 /* StudentMentalHealthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentMentalHealthUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AD5B72942AAA076B0007DD00 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AD9EEA0A2ACAD41D00F54841 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		ADB3AF622AA7A36A00926C59 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
-		ADC183982AC9D4CA00B05F38 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		ADC4FA6E2AA61F3F00FF3500 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ADDFA1552ADC187B00A95D2B /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		ADDFA1572ADC1AE200A95D2B /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		ADDFA15A2ADC206D00A95D2B /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		ADE6C33F2AA3BDEA00EADBE0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		ADE6C3412AA3C09400EADBE0 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		ADE6C3432AA5110C00EADBE0 /* RegisterationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterationView.swift; sourceTree = "<group>"; };
@@ -152,6 +158,16 @@
 			path = StudentMentalHealthUITests;
 			sourceTree = "<group>";
 		};
+		AD9EEA092ACAD3F400F54841 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD9EEA0A2ACAD41D00F54841 /* ListView.swift */,
+				ADDFA1552ADC187B00A95D2B /* ListRowView.swift */,
+				ADDFA1572ADC1AE200A95D2B /* AddView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		ADB3AF5F2AA7A2E800926C59 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,17 +188,10 @@
 		ADC183962AC9D4B200B05F38 /* ToDoListPage */ = {
 			isa = PBXGroup;
 			children = (
-				ADC183972AC9D4C000B05F38 /* Screens */,
+				ADDFA1592ADC203E00A95D2B /* Models */,
+				AD9EEA092ACAD3F400F54841 /* Views */,
 			);
 			path = ToDoListPage;
-			sourceTree = "<group>";
-		};
-		ADC183972AC9D4C000B05F38 /* Screens */ = {
-			isa = PBXGroup;
-			children = (
-				ADC183982AC9D4CA00B05F38 /* HomeScreen.swift */,
-			);
-			path = Screens;
 			sourceTree = "<group>";
 		};
 		ADCD04762AB60C8A00984BE7 /* Loginandsignup */ = {
@@ -194,6 +203,14 @@
 				ADE6C3392AA3BCC300EADBE0 /* Model */,
 			);
 			path = Loginandsignup;
+			sourceTree = "<group>";
+		};
+		ADDFA1592ADC203E00A95D2B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ADDFA15A2ADC206D00A95D2B /* ItemModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		ADE6C3342AA3BC9300EADBE0 /* App */ = {
@@ -397,12 +414,15 @@
 			files = (
 				ADE6C3402AA3BDEA00EADBE0 /* LoginView.swift in Sources */,
 				ADE6C3422AA3C09400EADBE0 /* InputView.swift in Sources */,
+				ADDFA15B2ADC206D00A95D2B /* ItemModel.swift in Sources */,
 				AD4083FF2AA22D3E0085BF64 /* ContentView.swift in Sources */,
 				AD4083FD2AA22D3E0085BF64 /* StudentMentalHealthApp.swift in Sources */,
 				ADC4FA6F2AA61F3F00FF3500 /* User.swift in Sources */,
 				ADE6C3462AA5151E00EADBE0 /* ProfileView.swift in Sources */,
-				ADC183992AC9D4CA00B05F38 /* HomeScreen.swift in Sources */,
 				ADE6C3442AA5110C00EADBE0 /* RegisterationView.swift in Sources */,
+				ADDFA1562ADC187B00A95D2B /* ListRowView.swift in Sources */,
+				ADDFA1582ADC1AE200A95D2B /* AddView.swift in Sources */,
+				AD9EEA0B2ACAD41D00F54841 /* ListView.swift in Sources */,
 				ADE6C3482AA5185900EADBE0 /* SettingsRowView.swift in Sources */,
 				ADB3AF632AA7A36A00926C59 /* AuthViewModel.swift in Sources */,
 			);
