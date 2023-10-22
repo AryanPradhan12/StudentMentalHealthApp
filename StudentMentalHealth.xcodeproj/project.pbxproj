@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD117C542AE53E9600F60AF7 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD117C532AE53E9600F60AF7 /* ListViewModel.swift */; };
 		AD4083FD2AA22D3E0085BF64 /* StudentMentalHealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4083FC2AA22D3E0085BF64 /* StudentMentalHealthApp.swift */; };
 		AD4083FF2AA22D3E0085BF64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4083FE2AA22D3E0085BF64 /* ContentView.swift */; };
 		AD4084012AA22D3F0085BF64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4084002AA22D3F0085BF64 /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD117C532AE53E9600F60AF7 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		AD4083F92AA22D3E0085BF64 /* StudentMentalHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentMentalHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4083FC2AA22D3E0085BF64 /* StudentMentalHealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentMentalHealthApp.swift; sourceTree = "<group>"; };
 		AD4083FE2AA22D3E0085BF64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD117C522AE53D7E00F60AF7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AD117C532AE53E9600F60AF7 /* ListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		AD4083F02AA22D3E0085BF64 = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +198,7 @@
 		ADC183962AC9D4B200B05F38 /* ToDoListPage */ = {
 			isa = PBXGroup;
 			children = (
+				AD117C522AE53D7E00F60AF7 /* ViewModels */,
 				ADDFA1592ADC203E00A95D2B /* Models */,
 				AD9EEA092ACAD3F400F54841 /* Views */,
 			);
@@ -414,6 +425,7 @@
 			files = (
 				ADE6C3402AA3BDEA00EADBE0 /* LoginView.swift in Sources */,
 				ADE6C3422AA3C09400EADBE0 /* InputView.swift in Sources */,
+				AD117C542AE53E9600F60AF7 /* ListViewModel.swift in Sources */,
 				ADDFA15B2ADC206D00A95D2B /* ItemModel.swift in Sources */,
 				AD4083FF2AA22D3E0085BF64 /* ContentView.swift in Sources */,
 				AD4083FD2AA22D3E0085BF64 /* StudentMentalHealthApp.swift in Sources */,

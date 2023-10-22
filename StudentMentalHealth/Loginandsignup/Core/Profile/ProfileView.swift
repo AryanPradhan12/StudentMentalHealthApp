@@ -73,6 +73,7 @@ struct ProfileView: View {
                                 Text("To do list")
                             })
                         }
+            
                     }
                     
                     
